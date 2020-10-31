@@ -13,7 +13,9 @@ video.videobanner{
 section#team .row{
   justify-content: center;
 }
-
+h2.titulobanner{
+  font-weight: 700;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
