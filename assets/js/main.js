@@ -177,3 +177,7 @@
   });
 
 })(jQuery);
+
+function cerrar(){
+  document.getElementById("aviso").style.display = "none";
+}

@@ -16,6 +16,17 @@ section#team .row{
 h2.titulobanner{
   font-weight: 700;
 }
+section.aviso{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 0.801);
+  padding-top: 1em;
+}
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
