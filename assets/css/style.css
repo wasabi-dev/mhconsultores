@@ -25,6 +25,30 @@ section.aviso{
   background-color: rgba(255, 255, 255, 0.801);
   padding-top: 1em;
 }
+#services .empresas{
+  margin-top: 2em;
+}
+ul#empresas{
+  list-style: none;
+  display: inline-flex;
+}
+ul#empresas li{
+  padding: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #313030;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50px;
+  text-align: center;
+  align-self: center;
+}
+ul#empresas li:hover{
+  color: rgb(247, 192, 62);
+  background: rgb(255, 241, 237);
+}
 
 
 /*--------------------------------------------------------------
