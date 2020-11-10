@@ -24,33 +24,52 @@ section.aviso{
   z-index: 99;
   background-color: rgba(255, 255, 255, 0.801);
   padding-top: 1em;
+  padding-bottom: 1em;
+  box-shadow: 2px 2px 2px 4px #0000003d;
 }
-#services .empresas{
-  margin-top: 2em;
+section.aviso .btn-primary.btn-lg{
+ background-color: #f7c03e;
+ border-color:#f7c03e ;
 }
-ul#empresas{
+section.aviso .btn-primary.btn-lg:hover{
+  background-color: #cf6807;
+  border-color: #646464;
+}
+section.aviso .btn-secondary.btn-lg a{
+    color: white;
+}
+.services #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 35px auto;
   list-style: none;
-  display: inline-flex;
+  text-align: center;
+  border-radius: 50px;
+  padding: 2px 15px;
+  margin-top: 1em;
 }
-ul#empresas li{
-  padding: 1em;
-  font-weight: 600;
+
+.services #portfolio-flters li {
   cursor: pointer;
-  font-size: 1em;
+  display: inline-block;
+  padding: 10px 20px 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
   text-transform: uppercase;
   color: #313030;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 50px;
-  text-align: center;
-  align-self: center;
-}
-ul#empresas li:hover{
-  color: rgb(247, 192, 62);
-  background: rgb(255, 241, 237);
 }
 
+.services #portfolio-flters li:hover, .services #portfolio-flters li.filter-active {
+  color: #f7c03e;
+  background: #fff1ed;
+}
 
+.services #portfolio-flters li:last-child {
+  margin-right: 0;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
