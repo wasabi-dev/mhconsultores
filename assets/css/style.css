@@ -92,6 +92,23 @@ section.text article{
 .botones button.btn-secondary.btn-lg a{
   color: white;
 }
+.whatsapp{
+    display: inline;
+    position: fixed;
+    padding: 1em;
+    bottom: 5em;
+    z-index: 99999;
+    text-align: center;
+    right:0px;
+    margin-bottom: 2em;
+    transition:all .5s ease-in-out;
+  }
+  .whatsapp :hover { 
+      -webkit-transform:scale(2);transform:scale(1.5);
+  }
+  
+  
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1473,6 +1490,7 @@ section {
   color: #313030;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px;
+  word-wrap: break-word;
 }
 
 .contact .info-box i {
