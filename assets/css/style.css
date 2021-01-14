@@ -17,8 +17,6 @@ h2.titulobanner{
   font-weight: 700;
 }
 section.aviso{
-  display: flex;
-  justify-content: center;
   position: fixed;
   bottom: 0;
   z-index: 99;
@@ -27,15 +25,18 @@ section.aviso{
   padding-bottom: 1em;
   box-shadow: 2px 2px 2px 4px #0000003d;
 }
-section.aviso .btn-primary.btn-lg{
+section.aviso .btn-primary{
  background-color: #f7c03e;
  border-color:#f7c03e ;
+ 
 }
-section.aviso .btn-primary.btn-lg:hover{
+section.aviso .btn-primary:hover{
   background-color: #cf6807;
   border-color: #646464;
+  color: white;
 }
-section.aviso .btn-secondary.btn-lg a{
+section.aviso .btn-primary a.pdcc-open-modal{
+    font-size: 1em;
     color: white;
 }
 .services #portfolio-flters {
@@ -91,6 +92,9 @@ section.text article{
 }
 .botones button.btn-secondary.btn-lg a{
   color: white;
+}
+.hide{
+  display:none
 }
 .whatsapp{
     display: inline;
