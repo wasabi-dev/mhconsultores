@@ -9,15 +9,14 @@ PDCookieConsent.config({
             "hideModalIn": [""],
         "styles": { 
             "primaryButton": { 
-                "bgColor" : "#A1FFA1", 
+                "bgColor" : "#F7C03E", 
                 "txtColor": "#036900"},
         "secondaryButton": { 
             "bgColor" : "#EEEEEE",
             "txtColor": "#333333"}
         }});
 
-const banner = document.getElementById('pdcc-modal-accept-all');
 
-function cerrar() {
-    banner.addEventListener("click").styles = "display: none"
- }
+
+
+

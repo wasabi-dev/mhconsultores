@@ -21,8 +21,8 @@ section.aviso{
   bottom: 0;
   z-index: 99;
   background-color: rgba(255, 255, 255, 0.801);
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   box-shadow: 2px 2px 2px 4px #0000003d;
 }
 section.aviso .btn-primary{
@@ -39,6 +39,23 @@ section.aviso .btn-primary a.pdcc-open-modal{
     font-size: 1em;
     color: white;
 }
+/*****EStilos de PD Cookie Consent******/
+#pdcc-modal-bg #pdcc-modal-container div#pdcc-modal-body div#pdcc-modal-info 
+#pdcc-modal-acceptance a#pdcc-modal-accept{
+  background-color:#f7c03e;
+  color: white;
+}
+#pdcc-modal-bg #pdcc-modal-container div#pdcc-modal-body 
+div#pdcc-modal-settings a#pdcc-modal-accept-all{
+  background-color:#f7c03e;
+  color: white;
+}
+#pdcc-modal-bg #pdcc-modal-container div#pdcc-modal-body div#pdcc-modal-settings 
+#pdcc-modal-services p label.pdcc-btn-switch input:checked:disabled + .pdcc-btn-slider{
+  background-color:#f7c03e;
+}
+/********************************************/
+
 .services #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -948,7 +965,7 @@ section {
 }
 
 .services .description {
-  line-height: 24px;
+  line-height: 21px;
   font-size: 14px;
 }
 
