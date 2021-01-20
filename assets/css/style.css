@@ -16,29 +16,7 @@ section#team .row{
 h2.titulobanner{
   font-weight: 700;
 }
-section.aviso{
-  position: fixed;
-  bottom: 0;
-  z-index: 99;
-  background-color: rgba(255, 255, 255, 0.801);
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  box-shadow: 2px 2px 2px 4px #0000003d;
-}
-section.aviso .btn-primary{
- background-color: #f7c03e;
- border-color:#f7c03e ;
- 
-}
-section.aviso .btn-primary:hover{
-  background-color: #cf6807;
-  border-color: #646464;
-  color: white;
-}
-section.aviso .btn-primary a.pdcc-open-modal{
-    font-size: 1em;
-    color: white;
-}
+
 /*****EStilos de PD Cookie Consent******/
 #pdcc-modal-bg #pdcc-modal-container div#pdcc-modal-body div#pdcc-modal-info 
 #pdcc-modal-acceptance a#pdcc-modal-accept{
@@ -908,7 +886,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 50px 20px;
+  padding: 20px 20px;
   margin-top: 35px;
   margin-bottom: 25px;
   text-align: center;
@@ -933,6 +911,7 @@ section {
   width: 72px;
   height: 72px;
   background: #f7c03e;
+  padding-bottom: 0.2em;
 }
 
 .services .icon i {
@@ -942,9 +921,10 @@ section {
 
 .services .title {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 18px;
   text-transform: uppercase;
+  margin-top: 1em;
 }
 
 .services .title a {
