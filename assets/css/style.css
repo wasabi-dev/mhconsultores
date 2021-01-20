@@ -1770,3 +1770,12 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/*--------------------------------------------------------------
+# Extras
+--------------------------------------------------------------*/
+#text_mark {
+  text-align: left;
+  color: #fff;
+  background-color: #0B0B61;
+}
