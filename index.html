@@ -15,7 +15,25 @@
   <!--Cookie Consent------------>
   <link rel="stylesheet" href="https://pdcc.gdpr.es/pdcc.min.css">
   <script charset="utf-8" src="https://pdcc.gdpr.es/pdcc.min.js"></script>
-  <script src="./jscookies/cookie.js">
+  <script>
+    PDCookieConsent.config({
+          "brand": {
+              "dev" : true,
+              "name": "MH Consultores Normativos",
+              "url" : "https://mhconsultoresnormativos.com",
+              "websiteOwner" : ""
+             },
+            "cookiePolicyLink": "",
+            "hideModalIn": [""],
+        "styles": { 
+            "primaryButton": { 
+                "bgColor" : "#F7C03E", 
+                "txtColor": "#036900"},
+        "secondaryButton": { 
+            "bgColor" : "#EEEEEE",
+            "txtColor": "#333333"}
+        }})
+        
   </script>
 
   <!-- Google Fonts -->
@@ -639,7 +657,8 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
+  <button class="cokies"><a href="#" class="pdcc-open-modal">Politicas de Privacidad</a></button>
+  
   <!-- ======= Footer ======= -->
   <a class="whatsapp" href="https://wa.me/+34654306040?text=Hola!%20Me%20interesa%20el%20servicio%20de...%20" 
     target="_blank"><img src="./assets/img/whatsapp.png"></a>
@@ -671,6 +690,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Servicios</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="index.html#portfolio">Clientes</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="index.html#contact">Contacto</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#" class="#pdcc-open-modal">Politicas de Privacidad</a></li>
             </ul>
           </div>
 

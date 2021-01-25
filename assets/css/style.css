@@ -105,6 +105,21 @@ section.text article{
   .whatsapp :hover { 
       -webkit-transform:scale(2);transform:scale(1.5);
   }
+
+button.cokies{
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    z-index: 99999;
+    right: 5em;
+    padding: 0.5em;
+    background-color:#f7c03e;
+    border-radius: 10px;
+    border: solid white 1px;
+}
+button.cokies a{
+  color: white;
+}
   
   
 
