@@ -178,3 +178,6 @@
 
 })(jQuery);
 
+
+var elem = document.getElementsByClassName("cokies");
+elem[0].click();

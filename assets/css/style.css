@@ -120,8 +120,20 @@ button.cokies{
 button.cokies a{
   color: white;
 }
-  
-  
+section.text {
+  padding-top: 0;
+}
+article{
+  margin-top: 2em;
+}
+section.text .banner-legal{
+  background-image: url("../img/bannermh.jpg");
+  background-size: cover;
+  padding: 3.5em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
 
 /*--------------------------------------------------------------
 # General
