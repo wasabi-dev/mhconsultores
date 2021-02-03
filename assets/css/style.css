@@ -1704,6 +1704,7 @@ section {
 
 #footer .footer-top .footer-links ul li {
   padding: 10px 0;
+  padding-bottom: 5px;
   display: flex;
   align-items: center;
 }
@@ -1711,7 +1712,9 @@ section {
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
-
+#footer .footer-links ul.links{
+  padding-left: 2em;
+}
 #footer .footer-top .footer-links ul a {
   color: #656262;
   transition: 0.3s;
@@ -1728,22 +1731,13 @@ section {
   font-size: 15px;
 }
 
-#footer .footer-newsletter h4 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #313030;
-  position: relative;
-  padding-bottom: 12px;
+#footer .pie-footer{
+  margin-bottom: 2.5em;
 }
 
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 50px;
-  text-align: left;
-  border: 1px solid #ffe2d9;
+#footer .footer-newsletter img{
+  padding-bottom: 1em;
+  max-width: 80%;
 }
 
 #footer .footer-newsletter form input[type="email"] {
