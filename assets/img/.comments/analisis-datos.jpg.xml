@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>Online statistics</caption>
+  <note>Statistics chart on laptop display and trader analyzing the data</note>
+  <place/>
+  <categories>
+    <category value="paper"/>
+    <category value="strategy"/>
+    <category value="job"/>
+    <category value="objectives"/>
+    <category value="financial"/>
+    <category value="chart"/>
+    <category value="graph"/>
+    <category value="data"/>
+    <category value="statistics"/>
+    <category value="research"/>
+    <category value="document"/>
+    <category value="keypad"/>
+    <category value="sales"/>
+    <category value="laptop"/>
+    <category value="professional"/>
+    <category value="profession"/>
+    <category value="business"/>
+    <category value="networking"/>
+    <category value="expert"/>
+    <category value="trader"/>
+    <category value="stock-broker"/>
+    <category value="browsing"/>
+    <category value="analyst"/>
+    <category value="development"/>
+    <category value="technology"/>
+    <category value="online"/>
+    <category value="marketing"/>
+    <category value="salesman"/>
+    <category value="e-business"/>
+    <category value="e-commerce"/>
+    <category value="human"/>
+    <category value="hand"/>
+    <category value="workplace"/>
+    <category value="corporate"/>
+  </categories>
+</comment>
