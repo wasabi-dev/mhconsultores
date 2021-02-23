@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>Business people meeting.</caption>
+  <note>Business people meeting to discuss the situation on the market.</note>
+  <place/>
+  <categories>
+    <category value="female"/>
+    <category value="data"/>
+    <category value="analyzing"/>
+    <category value="touching"/>
+    <category value="technology"/>
+    <category value="team"/>
+    <category value="modern"/>
+    <category value="computing"/>
+    <category value="strategy"/>
+    <category value="lifestyle"/>
+    <category value="interaction"/>
+    <category value="solution"/>
+    <category value="planning"/>
+    <category value="high"/>
+    <category value="touchpad"/>
+    <category value="briefing"/>
+    <category value="meeting"/>
+    <category value="progress"/>
+    <category value="workplace"/>
+    <category value="using"/>
+    <category value="device"/>
+    <category value="financial"/>
+    <category value="hand"/>
+    <category value="results"/>
+    <category value="performance"/>
+    <category value="report"/>
+    <category value="training"/>
+    <category value="market"/>
+    <category value="closeup"/>
+    <category value="network"/>
+    <category value="human"/>
+    <category value="seminar"/>
+    <category value="collaboration"/>
+    <category value="pad"/>
+    <category value="achievement"/>
+    <category value="innovation"/>
+    <category value="corporate"/>
+    <category value="tablet"/>
+    <category value="teamwork"/>
+    <category value="multimedia"/>
+    <category value="finger"/>
+    <category value="tech"/>
+    <category value="contemporary"/>
+    <category value="male"/>
+    <category value="cooperation"/>
+    <category value="finance"/>
+    <category value="analysis"/>
+    <category value="gadget"/>
+    <category value="digital"/>
+    <category value="marketing"/>
+  </categories>
+</comment>
