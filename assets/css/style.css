@@ -1068,10 +1068,12 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: auto;
+  height: 100px;
+  margin: 0 auto;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
-  margin: 0 auto;
+  padding: 1px;
 }
 
 .testimonials .testimonial-item h3 {
